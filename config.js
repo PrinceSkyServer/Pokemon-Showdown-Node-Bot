@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = 'localhost';
+exports.server = 'cbc.pokecommunity.com';
 
 exports.port = 8000;
 
-exports.serverid = 'localhost';
+exports.serverid = 'pokecommunity';
 
 exports.autoReconnectDelay = 10 * 1000;
 exports.connectionTimeout = 2 * 60 * 1000;
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = '';
+exports.nick = 'Inferno Queen';
 
-exports.pass = '';
+exports.pass = 'aaaaaa';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = ['lobby'];
+exports.rooms = ['johtoleagueshowdown'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -86,8 +86,8 @@ exports.exceptions = {
 * Example:
 *
 * exports.exceptions = {
-*	'ecuacion': true,
-*	'excepted': true
+*	'princesky': true,
+*	'alliancesky': true
 * };
 *
 */
@@ -106,9 +106,9 @@ exports.globalPermissions = {
 * Commands configuration
 */
 
-exports.commandTokens = ['.']; //Array of valid command characters
+exports.commandTokens = ['-']; //Array of valid command characters
 
-exports.defaultPermission = '%';
+exports.defaultPermission = '+';
 
 exports.permissionExceptions = {
 	//command: 'rank'
@@ -126,7 +126,7 @@ exports.permissionExceptions = {
 
 exports.botguide = "https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md";
 
-//When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot. Use .help to view a command guide"
+//When you pm the bot but don't use a command, it replies you this message. Example: "Hi, I'm a bot! Managed by PrinceSky. Use -help to view a command guide"
 //The var #USER is replaced with the username that pms it
 exports.pmhelp = "Hi #USER! I am a robot, please PM another staff member if you need help. Command guide: https://github.com/Ecuacion/Pokemon-Showdown-Node-Bot/blob/master/commands/README.md";
 
